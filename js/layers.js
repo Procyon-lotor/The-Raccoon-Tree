@@ -34,7 +34,7 @@ addLayer("p", {
         12: {
             title: "More caffeine :3",
             description: "Boost raccoon gain based on how much wood you have",
-            cost: new Decimal(2),
+            cost: new Decimal(1),
             effect() {
                 return player[this.layer].points.add(1).pow(0.5)
             },
@@ -42,8 +42,8 @@ addLayer("p", {
         },
         13: {
             title: "Powered-Up",
-            description: "Exponentiate raccoon gain to ^1.1 (this will get WAY better later on)",
-            cost: new Decimal(1),
+            description: "Exponentiate the previous upgrade's effect to ^1.1 (this will get WAY better later on)",
+            cost: new Decimal(2),
         },
     },
 })
