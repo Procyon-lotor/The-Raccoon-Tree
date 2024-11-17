@@ -28,7 +28,12 @@ addLayer("p", {
     upgrades: {
         11: {
             title: "Caffeine",
-            description: "Double wood gain",
+            description: "Double raccoon gain",
+            cost: new Decimal(1),
+        },
+        12: {
+            title: "Powered-Up",
+            description: "Exponentiate raccoon gain to ^1.1",
             cost: new Decimal(1),
         },
     },
