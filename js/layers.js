@@ -33,7 +33,7 @@ addLayer("p", {
         },
         12: {
             title: "Powered-Up",
-            description: "Exponentiate raccoon gain to ^1.1",
+            description: "Exponentiate raccoon gain to ^1.1 (this will get WAY better later on)",
             cost: new Decimal(1),
         },
     },
